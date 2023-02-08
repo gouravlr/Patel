@@ -217,7 +217,7 @@ button:hover {
 }
 
 .box {
-    display: flex;
+    display:inline-block;;
     justify-content: center;
     align-items: center;
     min-height: 400px;
