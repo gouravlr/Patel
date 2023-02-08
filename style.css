@@ -358,7 +358,7 @@ footer p:nth-child(2){
 }
 
 	
-@media (min-width: 768px) and (max-width: 1199.98px) 
+@@media only screen and (max-width: 600px)
 {
 	h1{
 		font-size:36px;
@@ -368,5 +368,5 @@ footer p:nth-child(2){
     background-image: url(WhatsApp\ Image\ 2022-12-31\ at\ 11.51.07\ AM.jpeg);
 	}
 	.box {
-		display:inline-block};
+		display:inline-block;}
 }
