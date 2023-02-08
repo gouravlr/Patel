@@ -217,7 +217,7 @@ button:hover {
 }
 
 .box {
-    display:inline-block;;
+    display:flex;
     justify-content: center;
     align-items: center;
     min-height: 400px;
@@ -367,4 +367,6 @@ footer p:nth-child(2){
 	.hero {
     background-image: url(WhatsApp\ Image\ 2022-12-31\ at\ 11.51.07\ AM.jpeg);
 	}
+	.box {
+		display:inline-block};
 }
