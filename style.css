@@ -356,3 +356,13 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
+@media screen and (max-width: 600px)
+{
+	h1{
+		font-size:36px;
+		line-height:50px;
+	}
+	.hero {
+    background-image: url(WhatsApp\ Image\ 2022-12-31\ at\ 11.51.07\ AM.jpeg);
+	}
+}
