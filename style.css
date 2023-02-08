@@ -356,7 +356,9 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
-@media screen and (max-width: 600px)
+
+	
+@media (min-width: 768px) and (max-width: 1199.98px) 
 {
 	h1{
 		font-size:36px;
