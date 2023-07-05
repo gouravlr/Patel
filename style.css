@@ -358,15 +358,29 @@ footer p:nth-child(2){
 }
 
 	
-@@media only screen and (max-width: 600px)
-{
-	h1{
-		font-size:36px;
-		line-height:50px;
-	}
+/* Default styles for all screen sizes */
+.container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Styles for screens larger than 600px */
+  @media (min-width: 600px) {
+    .container {
+      width: 80%;
+    }
+  }
+  
+  /* Styles for screens larger than 900px */
+  @media (min-width: 900px) {
+    .container {
+      width: 70%;
+    }
+  }
+  
 	.hero {
     background-image: url(WhatsApp\ Image\ 2022-12-31\ at\ 11.51.07\ AM.jpeg);
 	}
 	.box {
 		display:inline-block;}
-}
+
